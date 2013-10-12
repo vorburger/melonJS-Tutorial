@@ -5,8 +5,10 @@ game.resources = [
 	 * {name: "example", type:"image", src: "data/img/example.png"},
 	 */
 	{name: "area01_level_tiles", type: "image", src: "data/img/map/area01_level_tiles.png"},
+	{name: "metatiles32x32", type: "image", src: "data/img/map/metatiles32x32.png" },
+	{name: "area01_bkg0", type: "image", src: "data/img/area01_bkg0.png" },
+	{name: "area01_bkg1", type: "image", src: "data/img/area01_bkg1.png" },
 
-	
 	/* Atlases 
 	 * @example
 	 * {name: "example_tps", type: "tps", src: "data/img/example_tps.json"},
