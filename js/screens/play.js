@@ -7,7 +7,7 @@ game.PlayScreen = me.ScreenObject.extend({
 		game.data.score = 0;
 		
 		// add our HUD to the game world	
-		me.game.add(new game.HUD.Container());
+		//me.game.add(new game.HUD.Container());
 
 		me.levelDirector.loadLevel("area01");
 	},
@@ -18,6 +18,6 @@ game.PlayScreen = me.ScreenObject.extend({
 	 */
 	onDestroyEvent: function() {
 		// remove the HUD from the game world
-		me.game.world.removeChild(me.game.world.getEntityByProp("name", "HUD")[0]);
+		//me.game.world.removeChild(me.game.world.getEntityByProp("name", "HUD")[0]);
 	}
 });
